@@ -1,0 +1,21 @@
+@page
+@model LlamaChat.Pages.ChatModel
+@{
+   ViewData["Title"] = "Chat with Together AI";
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="UserPrompt">Your Message:</label>
+        <input type="text" id="UserPrompt" name="UserPrompt" class="form-control" asp-for="UserPrompt" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Send</button>
+</form>
+
+@if (Model.AiResponse != null)
+{
+    <div class="alert alert-info mt-4">
+        <strong>AI Response:</strong>
+        <p>@Model.AiResponse</p>
+    </div>
+}
