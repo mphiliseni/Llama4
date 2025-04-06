@@ -18,5 +18,6 @@ Open-source AI deployments
 
 📅 Released: April 5, 2025
 
+Read More: https://www.together.ai/models/llama-4-scout
 
 ![Image 2025-04-06 at 12 50](https://github.com/user-attachments/assets/c6fab92c-9a98-4f69-8412-88028b0faabf)
