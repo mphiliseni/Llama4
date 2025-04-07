@@ -1,21 +1,24 @@
 @page
 @model LlamaChat.Pages.ChatModel
 @{
-   ViewData["Title"] = "Chat with Together AI";
+   ViewData["Title"] = "Chat with Llama 4 Maverick AI";
 }
 
+<div style="text-align: center;">
+    <h2>Chat with Llama 4 Maverick AI</h2>
+</div>
+<p style="text-align: center;">Type your message below and receive a response from Llama 4 Maverick AI.</p>
 <form method="post">
     <div class="form-group">
-        <label for="UserPrompt">Your Message:</label>
+      </div>  <label for="UserPrompt">Your Message:</label>
         <input type="text" id="UserPrompt" name="UserPrompt" class="form-control" asp-for="UserPrompt" />
+        <button type="submit" class="btn btn-primary mt-2">Sucker</button>
     </div>
-    <button type="submit" class="btn btn-primary mt-2">Send</button>
 </form>
-
 @if (Model.AiResponse != null)
 {
-    <div class="alert alert-info mt-4">
-        <strong>AI Response:</strong>
-        <p>@Model.AiResponse</p>
+    <div class="alert alert-info mt-4" style="background-color: #e9f7fe; border: 1px solid #b3e5fc; border-radius: 8px; padding: 15px;">
+        <strong style="color: #0275d8;">AI Response:</strong>
+        <p style="margin-top: 10px; font-size: 16px; color: #333;">@Model.AiResponse</p>
     </div>
 }

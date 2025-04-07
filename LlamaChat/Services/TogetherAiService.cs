@@ -39,7 +39,7 @@ namespace LlamaChat.Services
                 return $"Error: {response.StatusCode} - {jsonResponse}";
             }
 
-            // ✅ Correctly parse only the message content
+            // Correctly parse only the message content
             var json = JObject.Parse(jsonResponse);
             var messageContent = json["choices"]?[0]?["message"]?["content"]?.ToString();
 

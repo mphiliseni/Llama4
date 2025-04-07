@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LlamaChat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5412c413c381d44a2951f6fed346cef73ea2e7da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8b7982ca0516c63415a526dde41f07a4c1a5a6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("LlamaChat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LlamaChat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
